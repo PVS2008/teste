@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
+
 *{
        margin: 15;
        padding: 20;
@@ -12,16 +14,12 @@
        padding: 24px 0;
        font-size: 30px;
    }
-   
-   .cabecalho-imagem{
-       width: 50%;
+   .cabeçalho-item{
+    font-family: kumar one, Verdana, Geneva, Tahoma, sans-serif;
+    color: #AD5300;
+
    }
-   
-   .cabecalho-lista-item{
-       display: inline-block;
-       margin: 0 26px;
-       font-size: 30px;
-   }
+
    .body2{
        color: rgb(0, 0, 0);
        display: flex;
@@ -46,62 +44,61 @@
        padding: 0px 0;
   }
   .search-box{
-       position:absolute;
-       top: 5%;
-       left: 92%;
-       transform:translate(-95%, -8%) ;
-       background: #f7b257;
-       height: 35px;
-       padding: 7px;
-       border-radius: 50px;
-       display: flex;
-       justify-content: space-between;
-       align-items: center ;
-  }
-  .search.text{
-       background: none;
-       border: 0;
-       outline: 0;
-       font-size: 16px;
-       width: 0;
-       padding: 0;
-       transition: 0.4m;
-  }
-  .search-btn{
-       width: 40px;
-       height: 40px;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       border-radius: 70%;
-       cursor: pointer;
-  }
-  .search-box:hover > .search.text{
-        width: 320px;
-        padding-left: 20px;
-  }
-  .search-box:hover > .search-btn{
-       background: #447ce7;
-  }
-  .search-box:hover > .search-btn .lupa-azul{
-       display: none;
-  }
-  .search-box:hover > .search-btn .lupa-branca{
-     display: block;
-  }
-   ::-webkit-input-placeholder{
-     font-size: 17px;
-     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     color: #aeaeae;
-   }
-   .lupa-branca{
-     display: none;
-     width: 40%;
-   }
-   .lupa-azul{
-     width: 35%;
-   }
-   
+          position: absolute;
+          top: 5%;
+          left: 92%;
+          transform: translate(-95%, -8%);
+          background: #e99534;
+          height: 35px;
+          padding: 7px;
+          border-radius: 50px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+      .lupa-branca{
+          display: none;
+          width: 40%;
+      }
+      .lupa-azul{
+          width: 40%;
+      }
+      .search-text{
+          background: none;
+          border: 0;
+          outline: 0;
+          font-size: 16px;
+          width: 0;
+          padding: 0;
+          transition: 0.4s;
+      }
+      .search-btn{
+          width: 40px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 70%;
+          cursor: pointer;
+      }
+      .search-box:hover > .search-text{
+          width: 320px;
+          padding-left: 20px;
+      }
+      .search-box:hover > .search-btn{
+          background: #020202;
+      }
+      .search-box:hover > .search-btn .lupa-azul{
+          display: none;
+      }
+      .search-box:hover > .search-btn .lupa-branca{
+          display: block;
+      }
+      ::-webkit-input-placeholder{
+          font-size: 17px;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          color: #aeaeae;
+      }
    .Notícia-1{
      width: 20%;
  }
@@ -124,3 +121,47 @@
 .Rodape{
      display: inline-block;
 }
+.j1{
+     background-color: #fdfdfd;
+ }
+ .nav{
+     list-style: none;
+     display: flex;
+     padding: 0;
+     justify-content: center;
+ }
+ .nav a{
+     display: inline-block;
+     padding: 12px;
+     color: rgb(6, 6, 6);
+     text-decoration: none;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+ }
+ .nav a:hover {
+ background-color: #e4a92b;
+ }
+ .sidebar {
+     font-family: Arial, Helvetica, sans-serif;
+     width: 200px;
+     height: 500px;
+     background-color: #daa542;
+     padding: 20px;
+     box-sizing: border-box;
+ }
+ .sidebar a {
+     display: block;
+     padding: 10px;
+     margin-bottom: 10px;
+     background-color: #fff;
+     text-decoration: none;
+     color: #333;
+ }
+ .sidebar a:hover {
+     background-color: #e5af10;
+ }
+ body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+ }
